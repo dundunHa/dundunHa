@@ -1,11 +1,12 @@
 # Hi, I’m dundunHa
 
-I’m a senior software engineer and tech lead working on AI agents and backend systems. I build agent runtimes in Rust and backend services in Go, with a focus on workflow orchestration, tool permissions, and recovering interrupted runs.
+I’m a senior AI agent engineer and tech lead at BlueFocus. I build systems that coordinate AI agents and run multimodal workloads.
 
-I’ve also built multimodal generation services and integrated ComfyUI with GPU workers. Previously, I worked on core services and release engineering for [SafeLine](https://github.com/chaitin/SafeLine), a self-hosted web application firewall.
+## AI engineering
 
-## Selected projects
+- **ArtiMind** — I designed and built a multi-agent system for brand research and analysis, with a Rust agent runtime and Go backend services. The runtime coordinates agents, schedules tasks with dependencies, checks permissions before calling tools, and uses checkpoints to recover interrupted runs.
+- **Image and video generation** — I built a shared backend that integrates multiple model providers and schedules ComfyUI workloads across cloud and local GPUs.
 
-- [**Orbit**](https://github.com/dundunHa/Orbit) — A macOS app that shows live Claude Code session status and token usage. Built with Rust and Tauri.
-- [**sys-overseer**](https://github.com/dundunHa/sys-overseer) — A Rust tool for monitoring CPU, memory, and network usage.
-- [**comfy2go**](https://github.com/dundunHa/comfy2go) — My adaptation of a Go client for ComfyUI, with support for HTTPS, secure WebSockets, and HTTP Basic authentication.
+## Open source
+
+I was a **core developer on [SafeLine](https://github.com/chaitin/SafeLine)** at Chaitin. SafeLine is Chaitin’s open-source, self-hosted web application firewall. I worked on the gateway, detection and logging services, and release engineering.
